@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ggm3YMTNEfCaPMF4gLFbaw" name="task 4a">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_gkAwsMTNEfCaPMF4gLFbaw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_xdyxQMTNEfCaPMF4gLFbaw" name="USU Operation System">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxQcTNEfCaPMF4gLFbaw" name="Port6" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxQsTNEfCaPMF4gLFbaw" name="Port7" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxQ8TNEfCaPMF4gLFbaw" name="Port8" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxRMTNEfCaPMF4gLFbaw" name="Port9" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxRcTNEfCaPMF4gLFbaw" name="Port10" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_Ol5I0MTOEfCaPMF4gLFbaw" name="CopyOf_Port6_15" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_PNmpEMTOEfCaPMF4gLFbaw" name="CopyOf_Port6_16" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_RbF0UMTOEfCaPMF4gLFbaw" name="CopyOf_Port6_17" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_Y_QwYMTOEfCaPMF4gLFbaw" name="CopyOf_Port6_18" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_ZS76UMTOEfCaPMF4gLFbaw" name="CopyOf_Port6_19" aggregation="composite"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xdyxRsTNEfCaPMF4gLFbaw" name="Membership Request Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxR8TNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xdyxSMTNEfCaPMF4gLFbaw" name="Termination Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxScTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xdyxSsTNEfCaPMF4gLFbaw" name="Regristration Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxS8TNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xdyxTMTNEfCaPMF4gLFbaw" name="Audit Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxTcTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xdyxTsTNEfCaPMF4gLFbaw" name="Notification Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_xdyxT8TNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_z_vJkMTNEfCaPMF4gLFbaw" name="Membership Request Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_z_vJkcTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_9XaDkMTNEfCaPMF4gLFbaw" name="CopyOf_Port1_1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_377SUMTNEfCaPMF4gLFbaw" name="Termination Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_377SUcTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_A3Sq0MTOEfCaPMF4gLFbaw" name="CopyOf_Port1_1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_5diPAMTNEfCaPMF4gLFbaw" name="Registration Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_5diPAcTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_BT010MTOEfCaPMF4gLFbaw" name="CopyOf_Port1_1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_6cM2sMTNEfCaPMF4gLFbaw" name="Audit Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_6cM2scTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_BnjqIMTOEfCaPMF4gLFbaw" name="CopyOf_Port1_1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_79QZwMTNEfCaPMF4gLFbaw" name="Notification Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_79QZwcTNEfCaPMF4gLFbaw" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_CHpfcMTOEfCaPMF4gLFbaw" name="CopyOf_Port1_1" aggregation="composite"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_o_EcAMTOEfCaPMF4gLFbaw" name="Membership Approval"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_68RBYMTOEfCaPMF4gLFbaw" name="Termination Handling "/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_8uWDAMTOEfCaPMF4gLFbaw" name="Registration Update"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_-SCqYMTOEfCaPMF4gLFbaw" name="Audit API"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_AMioMMTPEfCaPMF4gLFbaw" name="Notification API"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_B1Q5gMTPEfCaPMF4gLFbaw" name="USU Operation System Services">
+    <packagedElement xmi:type="uml:Component" xmi:id="_B1Q5gcTPEfCaPMF4gLFbaw" name="Membership Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B1Q5gsTPEfCaPMF4gLFbaw" client="_B1Q5gcTPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_LJaOYLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_LJaOYLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_B1Q5g8TPEfCaPMF4gLFbaw" name="Retention and Deletion Scheduler">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B1Q5hMTPEfCaPMF4gLFbaw" client="_B1Q5g8TPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_RaIlkLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_RaIlkLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_B1Q5hcTPEfCaPMF4gLFbaw" name="Union Registry Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B1Q5hsTPEfCaPMF4gLFbaw" client="_B1Q5hcTPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_Ton2YLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_Ton2YLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_B1Q5h8TPEfCaPMF4gLFbaw" name="Audit Logging Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B1Q5iMTPEfCaPMF4gLFbaw" client="_B1Q5h8TPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_XcdUYLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_XcdUYLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_B1Q5icTPEfCaPMF4gLFbaw" name="Notification Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B1Q5isTPEfCaPMF4gLFbaw" client="_B1Q5icTPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_ZsOXkLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_ZsOXkLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_DXikkMTPEfCaPMF4gLFbaw" name="CopyOf_Membership Service_5">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_DXikkcTPEfCaPMF4gLFbaw" client="_DXikkMTPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_LJaOYLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_LJaOYLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Yr8WUMTPEfCaPMF4gLFbaw" name="CopyOf_Retention and Deletion Scheduler_6">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Yr8WUcTPEfCaPMF4gLFbaw" client="_Yr8WUMTPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_RaIlkLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_RaIlkLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_bJ8CwMTPEfCaPMF4gLFbaw" name="CopyOf_Union Registry Service_7">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bJ8CwcTPEfCaPMF4gLFbaw" client="_bJ8CwMTPEfCaPMF4gLFbaw">
+        <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_Ton2YLpbEfClS8Ky2Mz6_Q"/>
+        <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_Ton2YLpbEfClS8Ky2Mz6_Q"/>
+      </interfaceRealization>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ix2RIMTPEfCaPMF4gLFbaw" name="Termination Validation API">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Mz6GcMTREfCaPMF4gLFbaw" general="_ZbAbwMTPEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ix2RIcTPEfCaPMF4gLFbaw" name="Notification Preview">
+    <generalization xmi:type="uml:Generalization" xmi:id="_PuHNwMTREfCaPMF4gLFbaw" general="_eMyvwMTPEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ix2RI8TPEfCaPMF4gLFbaw" name="Audit Query API">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OafpwMTREfCaPMF4gLFbaw" general="_dGWFEMTPEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ix2RIsTPEfCaPMF4gLFbaw" name="Membership Validation API">
+    <generalization xmi:type="uml:Generalization" xmi:id="_I52EoMTREfCaPMF4gLFbaw" general="_DXikkMTPEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Ix2RJMTPEfCaPMF4gLFbaw" name="Registration Validation API">
+    <generalization xmi:type="uml:Generalization" xmi:id="_N2Wa4MTREfCaPMF4gLFbaw" general="_bzJ-4MTPEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ZbAbwMTPEfCaPMF4gLFbaw" name="Retention and Deletion Scheduler">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ZbAbwcTPEfCaPMF4gLFbaw" client="_ZbAbwMTPEfCaPMF4gLFbaw">
+      <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_RaIlkLpbEfClS8Ky2Mz6_Q"/>
+      <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_RaIlkLpbEfClS8Ky2Mz6_Q"/>
+    </interfaceRealization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_bzJ-4MTPEfCaPMF4gLFbaw" name="Union Registry Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bzJ-4cTPEfCaPMF4gLFbaw" client="_bzJ-4MTPEfCaPMF4gLFbaw">
+      <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_Ton2YLpbEfClS8Ky2Mz6_Q"/>
+      <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_Ton2YLpbEfClS8Ky2Mz6_Q"/>
+    </interfaceRealization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_dGWFEMTPEfCaPMF4gLFbaw" name="Audit Logging Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_dGWFEcTPEfCaPMF4gLFbaw" client="_dGWFEMTPEfCaPMF4gLFbaw">
+      <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_XcdUYLpbEfClS8Ky2Mz6_Q"/>
+      <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_XcdUYLpbEfClS8Ky2Mz6_Q"/>
+    </interfaceRealization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_eMyvwMTPEfCaPMF4gLFbaw" name="Notification Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_eMyvwcTPEfCaPMF4gLFbaw" client="_eMyvwMTPEfCaPMF4gLFbaw">
+      <supplier xmi:type="uml:Interface" href="../USU/19216332USU.uml#_ZsOXkLpbEfClS8Ky2Mz6_Q"/>
+      <contract xmi:type="uml:Interface" href="../USU/19216332USU.uml#_ZsOXkLpbEfClS8Ky2Mz6_Q"/>
+    </interfaceRealization>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_oH-mgMTPEfCaPMF4gLFbaw" client="_BT010MTOEfCaPMF4gLFbaw" supplier="_RbF0UMTOEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_qC-TkMTPEfCaPMF4gLFbaw" client="_A3Sq0MTOEfCaPMF4gLFbaw" supplier="_PNmpEMTOEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_q18BkMTPEfCaPMF4gLFbaw" client="_9XaDkMTNEfCaPMF4gLFbaw" supplier="_Ol5I0MTOEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_tv54UMTPEfCaPMF4gLFbaw" client="_BnjqIMTOEfCaPMF4gLFbaw" supplier="_Y_QwYMTOEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_urIKcMTPEfCaPMF4gLFbaw" client="_CHpfcMTOEfCaPMF4gLFbaw" supplier="_ZS76UMTOEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_xZt3oMTPEfCaPMF4gLFbaw" client="_ggm3YMTNEfCaPMF4gLFbaw" supplier="_ggm3YMTNEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2XrmcMTPEfCaPMF4gLFbaw" client="_Y_QwYMTOEfCaPMF4gLFbaw" supplier="_-SCqYMTOEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_3bhCAMTPEfCaPMF4gLFbaw" client="_RbF0UMTOEfCaPMF4gLFbaw" supplier="_ggm3YMTNEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_6B5OYMTPEfCaPMF4gLFbaw" client="_PNmpEMTOEfCaPMF4gLFbaw" supplier="_ggm3YMTNEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_65LbsMTPEfCaPMF4gLFbaw" client="_Ol5I0MTOEfCaPMF4gLFbaw" supplier="_ggm3YMTNEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_diIMsMTQEfCaPMF4gLFbaw" client="_AMioMMTPEfCaPMF4gLFbaw" supplier="_Ix2RIcTPEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_fDZyMMTQEfCaPMF4gLFbaw" client="_-SCqYMTOEfCaPMF4gLFbaw" supplier="_Ix2RI8TPEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_hItR0MTQEfCaPMF4gLFbaw" client="_8uWDAMTOEfCaPMF4gLFbaw" supplier="_Ix2RJMTPEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_vFANkMTQEfCaPMF4gLFbaw" client="_68RBYMTOEfCaPMF4gLFbaw" supplier="_Ix2RIMTPEfCaPMF4gLFbaw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_vpXe4MTQEfCaPMF4gLFbaw" client="_o_EcAMTOEfCaPMF4gLFbaw" supplier="_Ix2RIsTPEfCaPMF4gLFbaw"/>
+</uml:Model>
