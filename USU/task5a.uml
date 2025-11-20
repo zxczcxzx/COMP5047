@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_j0VVIMTREfCaPMF4gLFbaw" name="task5a">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_j3hMAMTREfCaPMF4gLFbaw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qPVCoMTREfCaPMF4gLFbaw" name="Membership Manager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCocTREfCaPMF4gLFbaw" name="Validator: ValidationHandler">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qPVCosTREfCaPMF4gLFbaw" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qPVCo8TREfCaPMF4gLFbaw" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCpMTREfCaPMF4gLFbaw" name="Notifier: NotificationHandler"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCpcTREfCaPMF4gLFbaw" name="Repository: MembershipRepository"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCpsTREfCaPMF4gLFbaw" name="membership application">
+      <type xmi:type="uml:Class" href="../USU/19216332USU.uml#_GBflIMMpEfCaQfap1gPQOQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qPVCp8TREfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qPVCqMTREfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCqcTREfCaPMF4gLFbaw" name="membership validator">
+      <type xmi:type="uml:Class" href="../USU/19216332USU.uml#_rjPSwMMqEfCaQfap1gPQOQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qPVCqsTREfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qPVCq8TREfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCrMTREfCaPMF4gLFbaw" name="membership repository">
+      <type xmi:type="uml:Class" href="../USU/19216332USU.uml#_83u5YMMqEfCaQfap1gPQOQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qPVCrcTREfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qPVCrsTREfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qPVCr8TREfCaPMF4gLFbaw" name="notification handler">
+      <type xmi:type="uml:Class" href="../USU/19216332USU.uml#_Og-A8MMrEfCaQfap1gPQOQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qPVCsMTREfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qPVCscTREfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1U0JUMTREfCaPMF4gLFbaw" name="Validator: ValidationHandler">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U0JUcTREfCaPMF4gLFbaw" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U0JUsTREfCaPMF4gLFbaw" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2EZMIMTREfCaPMF4gLFbaw" name="Notifier: NotificationHandler"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2bjH4MTREfCaPMF4gLFbaw" name="Repository: MembershipRepository"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FnxlAcTTEfCaPMF4gLFbaw" name="membership validator" type="_ryL8gMTREfCaPMF4gLFbaw" association="_FnwW4MTTEfCaPMF4gLFbaw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FnxlAsTTEfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FnxlA8TTEfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GiWW48TTEfCaPMF4gLFbaw" name="membership repository" type="_tQvlMMTREfCaPMF4gLFbaw" association="_GiWW4MTTEfCaPMF4gLFbaw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GiXlAMTTEfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GiXlAcTTEfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HKq7I8TTEfCaPMF4gLFbaw" name="notification handler" type="_xiwM8MTREfCaPMF4gLFbaw" association="_HKq7IMTTEfCaPMF4gLFbaw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HKriMMTTEfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HKriMcTTEfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Jq9Gk8TTEfCaPMF4gLFbaw" name="membership application" type="_u7nLkMTREfCaPMF4gLFbaw" association="_Jq9GkMTTEfCaPMF4gLFbaw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jq9toMTTEfCaPMF4gLFbaw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jq9tocTTEfCaPMF4gLFbaw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qPVCssTREfCaPMF4gLFbaw" name="CreateApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qPVCs8TREfCaPMF4gLFbaw" name="app" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qPVCtMTREfCaPMF4gLFbaw" name="LiteralInteger1" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qPVCtcTREfCaPMF4gLFbaw" name="LiteralUnlimitedNatural1" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qPVCtsTREfCaPMF4gLFbaw" name="ApproveApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qPVCt8TREfCaPMF4gLFbaw" name="appID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qPVCuMTREfCaPMF4gLFbaw" name="RejectApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qPVCucTREfCaPMF4gLFbaw" name="appID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qPVCusTREfCaPMF4gLFbaw" name="ListApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qPVCu8TREfCaPMF4gLFbaw" name="appID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-Yko0MTREfCaPMF4gLFbaw" name="CreateApplication ">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-Yko0cTREfCaPMF4gLFbaw" name="app" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Yko0sTREfCaPMF4gLFbaw" name="LiteralInteger1" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Yko08TREfCaPMF4gLFbaw" name="LiteralUnlimitedNatural1" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AmR2gMTSEfCaPMF4gLFbaw" name="ApproveApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_AmR2gcTSEfCaPMF4gLFbaw" name="appID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DoPysMTSEfCaPMF4gLFbaw" name="RejectApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DoPyscTSEfCaPMF4gLFbaw" name="appID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GDgUMMTSEfCaPMF4gLFbaw" name="ListApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GDgUMcTSEfCaPMF4gLFbaw" name="appID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ryL8gMTREfCaPMF4gLFbaw" name="Membership Validator">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ryL8gcTREfCaPMF4gLFbaw" name="apiEndpoint: String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IlESAMTSEfCaPMF4gLFbaw" name="apiEndpoint: String_2"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ryL8gsTREfCaPMF4gLFbaw" name="CheckApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ryL8g8TREfCaPMF4gLFbaw" name="app: Membershipapp ">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RpECEMTSEfCaPMF4gLFbaw" name="CheckApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RpECEcTSEfCaPMF4gLFbaw" name="app: Membershipapp ">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tQvlMMTREfCaPMF4gLFbaw" name="Membership Repository" classifierBehavior="_tQvlM8TREfCaPMF4gLFbaw">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tQvlMcTREfCaPMF4gLFbaw" name="Connection: DBConnection"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tQvlMsTREfCaPMF4gLFbaw" name="EventRepository"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_T2SuoMTSEfCaPMF4gLFbaw" name="Connection: DBConnection"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UMV3IMTSEfCaPMF4gLFbaw" name="EventRepository"/>
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_tQvlM8TREfCaPMF4gLFbaw" name="Interaction">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_tQvlNMTREfCaPMF4gLFbaw" name="USUStaffUI" coveredBy="_tQvlOsTREfCaPMF4gLFbaw _tQvlUsTREfCaPMF4gLFbaw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_tQvlNcTREfCaPMF4gLFbaw" name="USUOperationAPI" coveredBy="_tQvlO8TREfCaPMF4gLFbaw _tQvlPMTREfCaPMF4gLFbaw _tQvlUMTREfCaPMF4gLFbaw _tQvlUcTREfCaPMF4gLFbaw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_tQvlNsTREfCaPMF4gLFbaw" name="Membership Manager" coveredBy="_tQvlPcTREfCaPMF4gLFbaw _tQvlPsTREfCaPMF4gLFbaw _tQvlQsTREfCaPMF4gLFbaw _tQvlQ8TREfCaPMF4gLFbaw _tQvlRsTREfCaPMF4gLFbaw _tQvlR8TREfCaPMF4gLFbaw _tQvlScTREfCaPMF4gLFbaw _tQvlS8TREfCaPMF4gLFbaw _tQvlTcTREfCaPMF4gLFbaw _tQvlT8TREfCaPMF4gLFbaw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_tQvlN8TREfCaPMF4gLFbaw" name="MembershipValidator" coveredBy="_tQvlP8TREfCaPMF4gLFbaw _tQvlQcTREfCaPMF4gLFbaw _tQvlRMTREfCaPMF4gLFbaw _tQvlRcTREfCaPMF4gLFbaw _tQvlSMTREfCaPMF4gLFbaw _tQvlSsTREfCaPMF4gLFbaw _tQvlQMTREfCaPMF4gLFbaw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_tQvlOMTREfCaPMF4gLFbaw" name="NotificationHandler" coveredBy="_tQvlTsTREfCaPMF4gLFbaw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_tQvlOcTREfCaPMF4gLFbaw" name="MembershipRepository" coveredBy="_tQvlTMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlOsTREfCaPMF4gLFbaw" name="Message7SendEvent" covered="_tQvlNMTREfCaPMF4gLFbaw" message="_tQvlU8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlO8TREfCaPMF4gLFbaw" name="Message7ReceiveEvent" covered="_tQvlNcTREfCaPMF4gLFbaw" message="_tQvlU8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlPMTREfCaPMF4gLFbaw" name="Message10SendEvent" covered="_tQvlNcTREfCaPMF4gLFbaw" message="_tQvlVMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlPcTREfCaPMF4gLFbaw" name="Message10ReceiveEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlVMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlPsTREfCaPMF4gLFbaw" name="Message13SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlVcTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlP8TREfCaPMF4gLFbaw" name="Message13ReceiveEvent" covered="_tQvlN8TREfCaPMF4gLFbaw" message="_tQvlVcTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_tQvlQMTREfCaPMF4gLFbaw" name="BehaviorExecutionSpecification16" covered="_tQvlN8TREfCaPMF4gLFbaw" finish="_tQvlQcTREfCaPMF4gLFbaw" start="_tQvlP8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlQcTREfCaPMF4gLFbaw" name="Message18SendEvent" covered="_tQvlN8TREfCaPMF4gLFbaw" message="_tQvlVsTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlQsTREfCaPMF4gLFbaw" name="Message18ReceiveEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlVsTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlQ8TREfCaPMF4gLFbaw" name="Message20SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlV8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlRMTREfCaPMF4gLFbaw" name="Message20ReceiveEvent" covered="_tQvlN8TREfCaPMF4gLFbaw" message="_tQvlV8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlRcTREfCaPMF4gLFbaw" name="Message23SendEvent" covered="_tQvlN8TREfCaPMF4gLFbaw" message="_tQvlWMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlRsTREfCaPMF4gLFbaw" name="Message23ReceiveEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlWMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlR8TREfCaPMF4gLFbaw" name="Message26SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlWcTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlSMTREfCaPMF4gLFbaw" name="Message26ReceiveEvent" covered="_tQvlN8TREfCaPMF4gLFbaw" message="_tQvlWcTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlScTREfCaPMF4gLFbaw" name="Message29SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlWsTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlSsTREfCaPMF4gLFbaw" name="Message29ReceiveEvent" covered="_tQvlN8TREfCaPMF4gLFbaw" message="_tQvlWsTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlS8TREfCaPMF4gLFbaw" name="Message32SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlW8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlTMTREfCaPMF4gLFbaw" name="Message32ReceiveEvent" covered="_tQvlOcTREfCaPMF4gLFbaw" message="_tQvlW8TREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlTcTREfCaPMF4gLFbaw" name="Message35SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlXMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlTsTREfCaPMF4gLFbaw" name="Message35ReceiveEvent" covered="_tQvlOMTREfCaPMF4gLFbaw" message="_tQvlXMTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlT8TREfCaPMF4gLFbaw" name="Message38SendEvent" covered="_tQvlNsTREfCaPMF4gLFbaw" message="_tQvlXcTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlUMTREfCaPMF4gLFbaw" name="Message38ReceiveEvent" covered="_tQvlNcTREfCaPMF4gLFbaw" message="_tQvlXcTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlUcTREfCaPMF4gLFbaw" name="Message41SendEvent" covered="_tQvlNcTREfCaPMF4gLFbaw" message="_tQvlXsTREfCaPMF4gLFbaw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tQvlUsTREfCaPMF4gLFbaw" name="Message41ReceiveEvent" covered="_tQvlNMTREfCaPMF4gLFbaw" message="_tQvlXsTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlU8TREfCaPMF4gLFbaw" name="approveApplication(appID)" messageSort="asynchCall" receiveEvent="_tQvlO8TREfCaPMF4gLFbaw" sendEvent="_tQvlOsTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlVMTREfCaPMF4gLFbaw" name="approveApplication(appID)" messageSort="asynchCall" receiveEvent="_tQvlPcTREfCaPMF4gLFbaw" sendEvent="_tQvlPMTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlVcTREfCaPMF4gLFbaw" name="findByID(appID)" receiveEvent="_tQvlP8TREfCaPMF4gLFbaw" sendEvent="_tQvlPsTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlVsTREfCaPMF4gLFbaw" name="return app" messageSort="reply" receiveEvent="_tQvlQsTREfCaPMF4gLFbaw" sendEvent="_tQvlQcTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlV8TREfCaPMF4gLFbaw" name="checkApplication(app)" messageSort="asynchCall" receiveEvent="_tQvlRMTREfCaPMF4gLFbaw" sendEvent="_tQvlQ8TREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlWMTREfCaPMF4gLFbaw" name="True/False" messageSort="asynchCall" receiveEvent="_tQvlRsTREfCaPMF4gLFbaw" sendEvent="_tQvlRcTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlWcTREfCaPMF4gLFbaw" name="markApproved()markRejected()" messageSort="asynchCall" receiveEvent="_tQvlSMTREfCaPMF4gLFbaw" sendEvent="_tQvlR8TREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlWsTREfCaPMF4gLFbaw" name="update(app)" messageSort="asynchCall" receiveEvent="_tQvlSsTREfCaPMF4gLFbaw" sendEvent="_tQvlScTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlW8TREfCaPMF4gLFbaw" name="writeAudit(result, appID)" messageSort="asynchCall" receiveEvent="_tQvlTMTREfCaPMF4gLFbaw" sendEvent="_tQvlS8TREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlXMTREfCaPMF4gLFbaw" name="sendNotification(app)" messageSort="asynchCall" receiveEvent="_tQvlTsTREfCaPMF4gLFbaw" sendEvent="_tQvlTcTREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlXcTREfCaPMF4gLFbaw" name="approvalResult(result)" messageSort="asynchCall" receiveEvent="_tQvlUMTREfCaPMF4gLFbaw" sendEvent="_tQvlT8TREfCaPMF4gLFbaw"/>
+      <message xmi:type="uml:Message" xmi:id="_tQvlXsTREfCaPMF4gLFbaw" name="showResult()" messageSort="asynchCall" receiveEvent="_tQvlUsTREfCaPMF4gLFbaw" sendEvent="_tQvlUcTREfCaPMF4gLFbaw"/>
+    </ownedBehavior>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tQvlX8TREfCaPMF4gLFbaw" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tQvlYMTREfCaPMF4gLFbaw" name="app:MembershipApp"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tQvlYcTREfCaPMF4gLFbaw" name="update">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tQvlYsTREfCaPMF4gLFbaw" name="app:Membershipapp"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tQvlY8TREfCaPMF4gLFbaw" name="findByID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tQvlZMTREfCaPMF4gLFbaw" name="app:MembershipApp"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UhbWUMTSEfCaPMF4gLFbaw" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UhbWUcTSEfCaPMF4gLFbaw" name="app:MembershipApp"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U0SA4MTSEfCaPMF4gLFbaw" name="update">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_U0SA4cTSEfCaPMF4gLFbaw" name="app:Membershipapp"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VB93kMTSEfCaPMF4gLFbaw" name="findByID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VB93kcTSEfCaPMF4gLFbaw" name="app:MembershipApp"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_u7nLkMTREfCaPMF4gLFbaw" name="Membership Application">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u7nLkcTREfCaPMF4gLFbaw" name="ApplicationID: int"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u7nLksTREfCaPMF4gLFbaw" name="UnionName: String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u7nLk8TREfCaPMF4gLFbaw" name="University: String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u7nLlMTREfCaPMF4gLFbaw" name="SubmittedDate: Date"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u7nLlcTREfCaPMF4gLFbaw" name="Status String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XGvywMTSEfCaPMF4gLFbaw" name="ApplicationID: int"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XYxW4MTSEfCaPMF4gLFbaw" name="UnionName: String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XqW2IMTSEfCaPMF4gLFbaw" name="University: String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_X568IMTSEfCaPMF4gLFbaw" name="SubmittedDate: Date"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YK9o0MTSEfCaPMF4gLFbaw" name="Status String"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7nLlsTREfCaPMF4gLFbaw" name="Validate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7nLl8TREfCaPMF4gLFbaw" name="GetSummary">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_u7nLmMTREfCaPMF4gLFbaw" name="">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YgOuMMTSEfCaPMF4gLFbaw" name="Validate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Yw8qwMTSEfCaPMF4gLFbaw" name="GetSummary">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Yw8qwcTSEfCaPMF4gLFbaw" name="">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xiwM8MTREfCaPMF4gLFbaw" name="Notification Handler">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xiwM8cTREfCaPMF4gLFbaw" name="apiEndpoint: String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VxMVEMTSEfCaPMF4gLFbaw" name="apiEndpoint: String"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xiwM8sTREfCaPMF4gLFbaw" name="sendNotification">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xiwM88TREfCaPMF4gLFbaw" name="app: Membershipapp"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WCmOIMTSEfCaPMF4gLFbaw" name="sendNotification">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WCmOIcTSEfCaPMF4gLFbaw" name="app: Membershipapp"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FnwW4MTTEfCaPMF4gLFbaw" memberEnd="_FnxlAcTTEfCaPMF4gLFbaw _FnyMEMTTEfCaPMF4gLFbaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fnw98MTTEfCaPMF4gLFbaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FnxlAMTTEfCaPMF4gLFbaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FnyMEMTTEfCaPMF4gLFbaw" name="membership manager" type="_qPVCoMTREfCaPMF4gLFbaw" association="_FnwW4MTTEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GiWW4MTTEfCaPMF4gLFbaw" memberEnd="_GiWW48TTEfCaPMF4gLFbaw _GiXlAsTTEfCaPMF4gLFbaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GiWW4cTTEfCaPMF4gLFbaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GiWW4sTTEfCaPMF4gLFbaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GiXlAsTTEfCaPMF4gLFbaw" name="membership manager" type="_qPVCoMTREfCaPMF4gLFbaw" association="_GiWW4MTTEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HKq7IMTTEfCaPMF4gLFbaw" memberEnd="_HKq7I8TTEfCaPMF4gLFbaw _HKriMsTTEfCaPMF4gLFbaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKq7IcTTEfCaPMF4gLFbaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKq7IsTTEfCaPMF4gLFbaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HKriMsTTEfCaPMF4gLFbaw" name="membership manager" type="_qPVCoMTREfCaPMF4gLFbaw" association="_HKq7IMTTEfCaPMF4gLFbaw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Jq9GkMTTEfCaPMF4gLFbaw" memberEnd="_Jq9Gk8TTEfCaPMF4gLFbaw _Jq9tosTTEfCaPMF4gLFbaw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jq9GkcTTEfCaPMF4gLFbaw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jq9GksTTEfCaPMF4gLFbaw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jq9tosTTEfCaPMF4gLFbaw" name="membership manager" type="_qPVCoMTREfCaPMF4gLFbaw" association="_Jq9GkMTTEfCaPMF4gLFbaw"/>
+  </packagedElement>
+</uml:Model>
